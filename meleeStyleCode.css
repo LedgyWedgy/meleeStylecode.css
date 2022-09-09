@@ -1,0 +1,85 @@
+html, body {
+	width: 100%;
+	height:100%;
+  }
+  
+  body {
+	  background: linear-gradient(-45deg, #ff6b3d, #ff3784, #2cc7ff, #2affcd);
+	  background-size: auto auto;
+	  animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+	  0% {
+		  background-position: 0% 50%;
+	  }
+	  50% {
+		  background-position: 100% 50%;
+	  }
+	  100% {
+		  background-position: 0% 50%;
+	  }
+  }
+
+
+/* The Overall Holder For The Lesson */
+#overallContainer {
+	color: rgb(0, 57, 0);
+	background: none;
+	border-style: solid;
+	border-color:rgb(0, 57, 0);
+	border-width: 1vw;
+}
+
+/* Holds the Lesson */
+#lessonBox {
+	align-self: auto;
+	border-width: 0.5vw;
+	border-style: solid;
+	border-color:black;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color:rgba(255, 255, 255, 0.673);
+}
+
+/* The Various Fonts Used */
+/* The Main Title */
+h1 {
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-align: center;
+	font-size: 2vw;
+	color: black;
+}
+/* The Specific Week */
+h2 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align: center;
+	color: black;
+}
+
+/* The Title Of The Specific Lesson */
+h3 {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align:center;
+	font-size: 1vw;
+	color: black;
+}
+/* The Overall Lesson Text */
+p {
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	text-align:justify;
+	margin-left: 5%;
+	margin-right: 5%;
+	color: black;
+}
+
+#assignmentsAndRequirements {
+	align-self: auto;
+	border-width: 0.5vw;
+	border-style: solid;
+	border-color:black;
+	margin-left: 23%;
+	margin-right: 23%;
+	margin-top: 2%;
+	background-color:rgba(255, 255, 255, 0.673);
+}
